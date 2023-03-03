@@ -1,0 +1,23 @@
+{
+  "image": "mcr.microsoft.com/devcontainers/universal:2",
+  "features": {
+       "ghcr.io/devcontainers/features/dotnet:1": {}
+  },
+  "customizations": {
+      "vscode": {
+          "extensions": [
+              "fernandoescolar.vscode-solution-explorer",
+              "ms-dotnettools.csharp",
+              "ms-dotnettools.dotnet-interactive-vscode",
+              "ms-toolsai.jupyter",
+              "ms-vscode.PowerShell",
+              "jorgeserrano.vscode-csharp-snippets"
+          ]
+      },
+      "codespaces": {
+          "openFiles": [
+              "CRUD.inpynb"
+          ]
+      }
+  }
+}
