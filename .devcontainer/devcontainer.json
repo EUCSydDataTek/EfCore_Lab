@@ -4,7 +4,7 @@
        "ghcr.io/devcontainers/features/dotnet:1": {}
   },
   "updateContentCommand":[
-    "/bin/bash Scripts/DevcontainerSetup.sh"
+    "sudo sh Scripts/DevcontainerSetup.sh"
   ],
   "customizations": {
       "vscode": {
