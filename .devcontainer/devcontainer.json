@@ -4,7 +4,7 @@
        "ghcr.io/devcontainers/features/dotnet:1": {}
   },
   "updateContentCommand":[
-    "sudo Scripts/DevcontainerSetup.sh"
+    "sudo dotnet tool install -g Microsoft.dotnet-interactive"
   ],
   "customizations": {
       "vscode": {
