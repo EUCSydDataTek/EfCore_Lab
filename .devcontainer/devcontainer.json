@@ -3,9 +3,7 @@
   "features": {
        "ghcr.io/devcontainers/features/dotnet:1": {}
   },
-  "postCreateCommand":[
-    "sudo dotnet tool install -g Microsoft.dotnet-interactive"
-  ],
+  "postCreateCommand":[],
   "customizations": {
       "vscode": {
           "extensions": [
@@ -19,7 +17,7 @@
       },
       "codespaces": {
           "openFiles": [
-              "CRUD.inpynb"
+              "CRUD.ipynb"
           ]
       }
   }
