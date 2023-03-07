@@ -1,6 +1,6 @@
 #! /bin/bash
 echo "---- Post create script ----"
-sudo conda install jupyter
+sudo conda install jupyter -y
 
 sudo dotnet tool install -g Microsoft.dotnet-interactive
 
