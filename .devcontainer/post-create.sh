@@ -1,6 +1,6 @@
 #! /bin/bash
 echo "---- Post create script ----"
-sudo apt-get update && sudo apt-get install python3 jupyter
+sudo apt-get update && sudo apt-get install python3 jupyter -y
 
 dotnet tool install -g Microsoft.dotnet-interactive
 
