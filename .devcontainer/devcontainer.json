@@ -1,7 +1,8 @@
 {
   "image": "mcr.microsoft.com/devcontainers/universal:2",
   "features": {
-       "ghcr.io/devcontainers/features/dotnet:1": {}
+       "ghcr.io/devcontainers/features/dotnet:1": {},
+       "ghcr.io/devcontainers/features/conda:1": {}
   },
   "customizations": {
       "vscode": {
