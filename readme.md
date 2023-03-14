@@ -1,5 +1,7 @@
 # Ef core Lab
 
+> Hvis du har åbnet dette i github codeSpaces kan du bare åbne CRUD.ipynb da Alt er installerer på forhånd
+
 Dette projekt skal køres i en polyglot notebook
 
 For at bruge polyglot skal du have jupyterlab installeret.
