@@ -2,5 +2,17 @@
     "build": {
          "dockerfile": ".Dockerfile",
          "context": ".." 
+    },
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "fernandoescolar.vscode-solution-explorer",
+                "ms-dotnettools.csharp",
+                "ms-dotnettools.dotnet-interactive-vscode",
+                "ms-toolsai.jupyter",
+                "ms-vscode.PowerShell",
+                "jorgeserrano.vscode-csharp-snippets"
+            ]
         }
+    }
 }
