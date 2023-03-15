@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Update the package cache
+# Update the package
 apt-get update
 
 # Install .NET7
