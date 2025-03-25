@@ -1,4 +1,4 @@
-FROM ubuntu:noble
+FROM ubuntu:plucky
 
 RUN mkdir /Environment
 

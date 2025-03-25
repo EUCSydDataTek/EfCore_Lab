@@ -1,4 +1,4 @@
-FROM ubuntu:lunar
+FROM ubuntu:plucky
 
 RUN mkdir /Environment
 
