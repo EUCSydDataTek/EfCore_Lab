@@ -1,6 +1,5 @@
 {
   "recommendations": [
-    "fernandoescolar.vscode-solution-explorer",
     "ms-dotnettools.csharp",
     "ms-dotnettools.dotnet-interactive-vscode",
     "ms-toolsai.jupyter",
