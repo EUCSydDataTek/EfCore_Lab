@@ -3,8 +3,11 @@
 # Update the package cache
 apt-get update
 
+# SDK
+snap install dotnet-sdk --classic
+
 # Install .NET7
-apt-get install -y dotnet8 dotnet-sdk-9.0 aspnetcore-runtime-9.0 dotnet-runtime-9.0 curl python3 jupyter
+apt-get install -y dotnet-sdk-9.0 aspnetcore-runtime-9.0 dotnet-runtime-9.0 curl python3 jupyter
 
 export DOTNET_ROOT=/usr/lib/dotnet
 
